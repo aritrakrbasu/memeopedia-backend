@@ -2,7 +2,7 @@
 
 const assert = require('assert');
 
-const PORT = 8080
+const PORT = process.env.PORT || 3000
 const HOST="localhost"
 const HOST_URL="http://localhost:8080"
 assert(PORT, 'PORT is required');
